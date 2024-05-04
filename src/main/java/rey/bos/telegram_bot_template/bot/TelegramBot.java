@@ -36,7 +36,7 @@ public class TelegramBot implements LongPollingSingleThreadUpdateConsumer {
             try {
                 telegramClient.execute(message); // Sending our message object to user
             } catch (TelegramApiException e) {
-                log.error("Can't start TelegramBot", e);
+                log.error("Can't execute command", e);
             }
         }
     }
