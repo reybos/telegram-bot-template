@@ -1,13 +1,60 @@
+# Telegram bot template
+
+<a name="menu"></a>
+<ul>
+    <li>
+        <a>About the framework</a>
+        <ul>
+            <li><a href="#technologies">Technologies</a></li>
+            <li><a href="#demonstration">Demonstration of the possibilities</a></li>
+            <li><a href="#framework_features">Framework features</a></li>
+        </ul>
+    </li>
+    <li>
+        <a>How to use</a>
+        <ul>
+            <li><a href="#own_functionality">How to add your own functionality</a></li>
+            <li><a href="#register_bot">Register your bot</a></li>
+            <li><a href="#local_launch">Local launch of the application</a></li>
+            <li><a href="#deploy_bot">Deploying a bot to AWS</a></li>
+        </ul>
+    </li>
+</ul>
+
+<h2><a name="technologies">Technologies</a>&nbsp;&nbsp;<a href="#menu">&#9650;</a></h3>
+
+<ul>
+    <li>Java 17</li>
+    <li>Spring Boot</li>
+    <li>Maven</li>
+    <li><a href="https://github.com/rubenlagus/TelegramBots">Telegram bot library</a></li>
+</ul>
+
+<h2><a name="demonstration">Demonstration of the possibilities</a>&nbsp;&nbsp;<a href="#menu">&#9650;</a></h2>
+
 <p align="center">
   <img src="media/demo.gif" height="650" title="demo">
 </p>
 
+<h2><a name="framework_features">Framework features</a>&nbsp;&nbsp;<a href="#menu">&#9650;</a></h2>
+
+//TODO
+
+<h2><a name="own_functionality">How to add your own functionality</a>&nbsp;&nbsp;<a href="#menu">&#9650;</a></h2>
+
+//TODO
+
+<h2><a name="register_bot">Register your bot in telegram</a>&nbsp;&nbsp;<a href="#menu">&#9650;</a></h2>
+
+<p>How to do this can be found on the Internet. Here is <a href="https://core.telegram.org/bots#how-do-i-create-a-bot">a link</a> to the telegram documentation. The token that you receive when creating the bot will later be used when interacting with the telegram api</p>
+
+<h2><a name="local_launch">Local launch of the application</a>&nbsp;&nbsp;<a href="#menu">&#9650;</a></h2>
+
+//TODO
+
+<h2><a name="deploy_bot">Deploying a bot to AWS</a>&nbsp;&nbsp;<a href="#menu">&#9650;</a></h2>
+
 <p>This template is ready to work and deploy to AWS, I had a number of problems with saving application logs, but now it works.</p>
-The library is used for the bot to work <a href="https://rubenlagus.github.io/TelegramBotsDocumentation/telegram-bots.html">here</a>
-
-<h3>Register your bot in telegram</h3>
-<p>How to do this can be found on the Internet, I found <a  href="https://www.toptal.com/python/telegram-bot-tutorial-python">this link</a>. The token that you receive when creating the bot will later be used when interacting with the telegram api</p>
-
 <h3>Create an AWS account</h3>
 During the first year after registration, free resources for testing ideas are available, which I used.
 
@@ -49,14 +96,4 @@ Run the command in the root of the application
 <p>
   <img src="media/7.png" height="240" title="create a new application">
 </p>
-<p>Now you can check the work of the bot</p>
-
-<h3>Checking the bot</h3>
-<p>We find a bot and start a correspondence with it</p>
-<p>
-  <img src="media/8.png" height="100" title="create a new application">
-</p>
-<p>Now he can only forward your messages back, but this is just a template, teaching him to do something else is a completely different story.</p>
-<p>
-  <img src="media/9.png" height="150" title="create a new application">
-</p>
+<p>Now you can check the work of the bot. Find your bot in telegram and click the "start" button or send him any message</p>
